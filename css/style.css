@@ -1,7 +1,7 @@
 @import url('reset.css');
 
 body {
-	font: 12px Arial, Verdana, Tahoma, sans-serif;
+	font: 12px/1.6 Arial, Verdana, Tahoma, sans-serif;
 	color: #5d5d5d;
 	background-color: #f4f4f4;
 }
@@ -15,6 +15,10 @@ a {
 
 .active, a:hover {
 	color: #090909;
+}
+
+p {
+	margin: 8px 0;
 }
 
 #top-line{
@@ -84,4 +88,45 @@ a {
 	color: #fe9b00;
 }
 
+#content {
+	margin-top: 20px;
+	border-bottom: 1px solid #c0c0c0;
+	overflow: hidden;
+	margin-bottom: 100px;
+	padding-bottom: 24px;
+}
 
+.content-box {
+	width: 285px;
+	float: left;
+	margin-right: 52px;
+}
+
+#content-box {
+	margin-right: 0;
+}
+
+.content-box h2 {
+	font-size: 18px;
+	font-weight: bold;
+	color: #090909;
+	text-transform: uppercase;
+	border-bottom: 5px solid #090909;
+	padding-bottom: 3px;
+	padding-left: 28px;
+	background: url("../images/arrow.png") no-repeat 0 10px;
+	margin-bottom: 16px;
+}
+
+.content-box ul li {
+	background: url("../images/check.png") 0 3px no-repeat;
+	padding-left: 28px;
+	margin-bottom: 12px;
+	line-height: 1.3;
+}
+
+.italic-text {
+	font-style: italic;
+	color: #090909;
+	margin-top: 20px;
+}
