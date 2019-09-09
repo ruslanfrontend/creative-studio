@@ -21,6 +21,16 @@ p {
 	margin: 8px 0;
 }
 
+h2 {
+	font-size: 18px;
+	font-weight: bold;
+	color: #090909;
+	text-transform: uppercase;
+	padding-left: 28px;
+	background: url("../images/arrow.png") no-repeat 0 10px;
+	margin-bottom: 11px;
+}
+
 #top-line{
 	background-color: #090909;
 	height: 16px;
@@ -92,7 +102,6 @@ p {
 	margin-top: 20px;
 	border-bottom: 1px solid #c0c0c0;
 	overflow: hidden;
-	margin-bottom: 100px;
 	padding-bottom: 24px;
 }
 
@@ -113,8 +122,6 @@ p {
 	text-transform: uppercase;
 	border-bottom: 5px solid #090909;
 	padding-bottom: 3px;
-	padding-left: 28px;
-	background: url("../images/arrow.png") no-repeat 0 10px;
 	margin-bottom: 16px;
 }
 
@@ -130,3 +137,35 @@ p {
 	color: #090909;
 	margin-top: 20px;
 }
+
+#portfolio {
+	margin-top: 20px;
+	padding-bottom: 33px;
+	border-bottom: 1px solid #c0c0c0;
+	overflow: hidden;
+	margin-bottom: 100px;
+}
+
+.portfolio-image {
+	width: 215px;
+	height: 135px;
+	float: left;
+	margin-right: 33px;
+	position: relative;
+}
+
+.portfolio-image a {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	color: #090909;
+	display: block;
+	background-color: #fe9b00;
+	padding: 4px 10px;
+	line-height: 1;
+}
+
+#portfolio-image {
+	margin-right: 0;
+}
+
