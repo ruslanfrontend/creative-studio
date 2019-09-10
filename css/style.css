@@ -31,6 +31,16 @@ h2 {
 	margin-bottom: 11px;
 }
 
+h3 {
+	font-size: 12px;
+	font-weight: bold;
+	color: #090909;
+	text-transform: uppercase;
+	background: url("../images/arrow-smol.png") no-repeat 0 8px;
+	padding-left: 22px;
+	margin-bottom: 20px;
+}
+
 #top-line{
 	background-color: #090909;
 	height: 16px;
@@ -143,7 +153,6 @@ h2 {
 	padding-bottom: 33px;
 	border-bottom: 1px solid #c0c0c0;
 	overflow: hidden;
-	margin-bottom: 100px;
 }
 
 .portfolio-image {
@@ -169,3 +178,22 @@ h2 {
 	margin-right: 0;
 }
 
+#bottom-row {
+	margin-top: 20px;
+	overflow: hidden;
+}
+
+#blog {
+	width: 670px;
+	float: left;
+}
+
+#social {
+	float: right;
+	width: 220px;
+}
+
+#social ul li {
+	float: left;
+	margin-right: 12px;
+}
